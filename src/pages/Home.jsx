@@ -35,7 +35,7 @@ async function handleSubscribe(e){
         name, email
       }
     })
-    navigate('event/lesson/aula-2')
+    navigate('event')
   } catch (error) {
     alert("Los datos estan vacios por favor llene los campos")
   }
