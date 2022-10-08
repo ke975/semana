@@ -27,7 +27,7 @@ export  function Sidebar() {
     <div>
 
       <div >
-      <div class="accordion" id="accordionExample">
+      <div class="accordion" id="accordionExample mt-5">
   <div class="accordion-item bg-dark">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

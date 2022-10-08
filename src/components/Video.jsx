@@ -73,7 +73,7 @@ videoId={data.lesson.videoId}
        
   <button className="btn btn" style={{ backgroundColor:"#996DFF"}} type="button">
 
-<a  target="_blank" href="https://discord.gg/p9XVanyM" style={{textDecoration:"none"}}>  <DiscordLogo size={40} 
+<a  target="_blank" href="https://discord.gg/kVqqkwuY" style={{textDecoration:"none"}}>  <DiscordLogo size={40} 
 color="white"
 /> <strong className="text-white">
 Discord</strong></a></button>
