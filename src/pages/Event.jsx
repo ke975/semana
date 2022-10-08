@@ -31,7 +31,7 @@ export  function Event() {
               <Link to="/event/lesson/fundamentosReacjs">Accece al contenido clicando </Link>
             }
           </div>
-          <div className="col-md-4 col-lg-4 order-sm-first order-xs-first ">
+          <div className="col-md-4 col-lg-4 order-sm-first order-xs-first mt-5 ">
             <Sidebar/>
           </div>
         </div>
