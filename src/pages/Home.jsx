@@ -35,7 +35,7 @@ async function handleSubscribe(e){
         name, email
       }
     })
-    navigate('/event')
+    navigate('/event/lesson/fundamentos-de-react-js')
   } catch (error) {
     alert("Los datos estan vacios por favor llene los campos")
   }

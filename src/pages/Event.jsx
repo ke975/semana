@@ -25,12 +25,12 @@ export  function Event() {
      
           <div className="col-md-8 mt-5 col-lg-8 order-md-first">
           
-              {
-                slug? 
-                <Video  lessonSlug={slug}/> :
-                <Link to="event/lesson/fundamentos-de-react-js">Accecese a la clases </Link>
+            
+        
+                <Video  lessonSlug={slug}/> 
+             
    
-              }
+             
 
       
         
