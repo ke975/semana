@@ -27,8 +27,9 @@ export  function Event() {
           
               {
                 slug? 
-                <Link to="event/lesson/fundamentos-de-react-js">Accecese a la clases </Link>:
-                <Video  lessonSlug={slug}/> 
+                <Video  lessonSlug={slug}/> :
+                <Link to="event/lesson/fundamentos-de-react-js">Accecese a la clases </Link>
+   
               }
 
       
