@@ -43,7 +43,7 @@ if(!data){
 }
 
   return (
-    <div className='col-sm-12 order-sm-last '>
+    <div className='col-sm-12 col-md-12 order-sm-last '>
   <Player>
       <Youtube
 videoId={data.lesson.videoId}    

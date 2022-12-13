@@ -19,7 +19,7 @@ export  function Event() {
         <header className="mx-auto">
 <Header/>
         </header>
-    <main className="container-fluid">
+    <main className="container">
       <div >
         <div className="row">
      
