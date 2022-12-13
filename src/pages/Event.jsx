@@ -23,12 +23,10 @@ export  function Event() {
       <div >
         <div className="row">
      
-          <div className="col-md-8 mt-5 col-lg-8 order-md-first">
+          <div className="col-md-12 mt-5 col-lg-8 order-md-first">
           {slug?  <Video  lessonSlug={slug} /> :<div className='flex-1'></div> }
           </div>
-          <div className="col-md-4 col-lg-4 order-sm-first order-xs-first mt-5 ">
-            <Sidebar/>
-          </div>
+        
         </div>
       </div>
     </main>
