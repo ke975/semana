@@ -24,7 +24,7 @@ export  function Event() {
         <div className="row">
      
           <div className="col-md-8 mt-5 col-lg-8 order-md-first">
-                <Video  lessonSlug={slug}/>
+          {slug?  <Video  lessonSlug={slug} /> :<div className='flex-1'></div> }
           </div>
           <div className="col-md-4 col-lg-4 order-sm-first order-xs-first mt-5 ">
             <Sidebar/>
@@ -37,7 +37,7 @@ export  function Event() {
 
 <footer>
 <div className="container-fluid mt-5 bg-dark">
-  <img src={Logo} alt="Logo de la empresa" width="80" height="80"/>
+  <img src={Logo} alt="Logo de la empresa" width="50" height="50"/>
 
 </div>
 
